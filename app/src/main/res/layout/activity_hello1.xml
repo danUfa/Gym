@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bcg"
+    tools:context=".hello1">
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/scale"
+        android:fontFamily="@font/font"
+        android:onClick="SignUpClick"
+        android:paddingLeft="43dp"
+        android:text="Weight loss"
+        android:textAllCaps="false"
+        android:textColor="#6E9CD2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+
+        android:layout_marginTop="29dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/yoga"
+        android:fontFamily="@font/font"
+        android:onClick="SignUpClick"
+        android:paddingLeft="43dp"
+        android:text="Keeping fit"
+        android:textAllCaps="false"
+        android:textColor="#6E9CD2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/build_muscle"
+        android:fontFamily="@font/font"
+        android:onClick="SignUpClick"
+        android:paddingLeft="43dp"
+        android:text="Build muscle"
+        android:textAllCaps="false"
+        android:textColor="#6E9CD2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:fontFamily="@font/font"
+        android:text="Step 1/5"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/font"
+        android:text="What is your purpose?"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
